@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ylacat/JSFileLogger.git"
+    "url": "git+https://github.com/Delphren-Phox/JSFileLogger.git"
   },
   "keywords": [
     "filelogger",
@@ -17,9 +17,9 @@
   "author": "Delphren Phox",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ylacat/JSFileLogger/issues"
+    "url": "https://github.com/Delphren-Phox/JSFileLogger/issues"
   },
-  "homepage": "https://github.com/ylacat/JSFileLogger#readme",
+  "homepage": "https://github.com/Delphren-Phox/JSFileLogger#readme",
   "dependencies": {
     "fs": "0.0.1-security"
   }
