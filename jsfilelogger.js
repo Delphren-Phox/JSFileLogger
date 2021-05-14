@@ -9,9 +9,9 @@ if(!fs.existsSync("logs")){
         }
     });
 }
-exports.log = function(directinput){
+
+exports.log = function(input){
 	try{
-		var input = directinput
 		var fileDate = (startTime.getFullYear() + "-" + (startTime.getMonth() + 1) + "-" + startTime.getDate() + "-" + startTime.getHours() + ";" + startTime.getMinutes() + ";" + startTime.getSeconds() + ";" + startTime.getMilliseconds())
 		var fileName = ("logs/" + fileDate + ".log")
 		var commandDate = new Date()
@@ -24,6 +24,7 @@ exports.log = function(directinput){
 		console.log(consoleoutputstring)
 		}
 	catch(error){
-		lowlevelerrhandle(error)
+		console.log("JSFILELOGGER ERROR")
+		console.log(error)
 	}
 }

@@ -1,5 +1,5 @@
 {
-  "name": "JSFL",
+  "name": "jsfilelogger",
   "version": "1.0.1",
   "description": "Logs Node.js data to file and console",
   "main": "jsfilelogger.js",
