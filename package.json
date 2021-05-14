@@ -2,7 +2,7 @@
   "name": "JSFL",
   "version": "1.0.1",
   "description": "Logs Node.js data to file and console",
-  "main": "jsfl.js",
+  "main": "jsfilelogger.js",
   "scripts": {
     "test": "log"
   },
