@@ -1,4 +1,4 @@
-fs = require("fs")
+var fs = require('graceful-fs')
 const startTime = new Date()
 if(!fs.existsSync("logs")){
     fs.mkdirSync("logs", 0766, function(err){
